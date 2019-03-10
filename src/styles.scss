@@ -1,1 +1,99 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.rel {
+  position: relative;
+}
+.abs {
+  position: absolute;
+}
+.h-50 {
+  height: 50px;
+}
+.h-full {
+  height: 100%;
+}
+.h-100vh {
+  height: 100vh;
+}
+.w-full {
+  width: 100%;
+}
+.pt-50 {
+  padding-top: 50px;
+}
+.pt-100 {
+  padding-top: 50px;
+}
+.top-0 {
+  top: 0;
+}
+.left-0 {
+  left: 0px;
+}
+.left-90 {
+  left: 90px;
+}
+.right-0 {
+  right: 0;
+}
+.flex-r-fs {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.flex-r-c {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.flex-r-fe {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.flex-c-fs {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.flex-c-c {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.flex-c-fe {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.flex-g {
+  flex-grow: 1;
+  // flex-basis: 1;
+}
+.z-1 {
+  z-index: 1;
+}
+.z-2 {
+  z-index: 2;
+}
+.z-3 {
+  z-index: 3;
+}
+.over-f-y {
+  overflow-y: scroll;
+}
+.max-h-50 {
+  max-height: calc(100% - 50px);
+}
+.max-h-80 {
+  max-height: calc(100vh - 80px);
+}
+.mt-50 {
+  margin-top: 50px;
+}
